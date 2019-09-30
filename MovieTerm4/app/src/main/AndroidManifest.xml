@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.user.movieterm4">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+
+    <application
+        android:allowBackup="false"
+        android:hardwareAccelerated="false"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:largeHeap="true"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.AppCompat.NoActionBar"
+        android:usesCleartextTraffic="true">
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="AIzaSyCwZiXseTuPyk1TbLPtCAdNSLGNh783rH8" />
+        <activity android:name=".netXcha">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".LoadingActivity"
+            android:theme="@style/SplashTheme">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Main4Activity" />
+        <activity android:name=".Login" />
+        <activity android:name=".Register" />
+        <activity android:name=".BoxOffice.BoxOffice" />
+        <activity android:name=".Map.MapInfo" />
+        <activity android:name=".Map.PlaceInfo" />
+        <activity android:name=".NowPlay.NowPlayMovie" />
+        <activity android:name=".NowPlay.DetailActivity" />
+        <activity android:name=".WillPlay.WillPlayMovie" />
+        <activity android:name=".WillPlay.DetailActivity2" />
+        <activity android:name=".BusMap.BusMap" />
+        <activity android:name=".BusMap.StationInfo" />
+        <activity android:name=".MemberInfo" />
+        <activity android:name=".LikeTheater" />
+        <activity android:name=".VoteMovie" />
+
+    </application>
+
+</manifest>

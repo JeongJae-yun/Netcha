@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item android:id="@+id/menu7"
+            android:icon="@drawable/ic_home_black_24dp"
+            android:title="홈" />
+        <item android:id="@+id/menu1"
+            android:icon="@drawable/ic_portrait_black_24dp"
+            android:title="로그인" />
+        <item android:id="@+id/menu2"
+            android:icon="@drawable/ic_movie"
+            android:title="현재 상영작" />
+        <item android:id="@+id/menu3"
+            android:icon="@drawable/ic_movie"
+            android:title="개봉 예정작" />
+        <item android:id="@+id/menu4"
+            android:icon="@drawable/ic_grade_black_24dp"
+            android:title="영화 순위" />
+        <item android:id="@+id/menu5"
+            android:icon="@drawable/ic_my_location_black_24dp"
+            android:title="내 위치" />
+        <item android:id="@+id/menu6"
+            android:icon="@drawable/ic_web_asset_black_24dp"
+            android:title="로그 아웃"/>
+    </group>
+
+
+
+</menu>

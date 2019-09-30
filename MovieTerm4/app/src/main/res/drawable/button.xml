@@ -1,0 +1,8 @@
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- 버튼 클릭시 이미지 -->
+    <item android:drawable="@drawable/plusresult" android:state_pressed="true">
+        <!-- 기본이미지 -->
+        <item android:drawable="@drawable/plus"></item>
+    </item>
+</selector>
+
