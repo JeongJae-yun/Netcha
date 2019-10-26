@@ -495,7 +495,7 @@ public class DetailActivity extends YouTubeBaseActivity {
     public void playVideo(final String videoId, YouTubePlayerView youTubePlayerView) {
         //initialize youtube player view
         Log.d("Youtube", "trailer: " + videoId);
-        youTubePlayerView.initialize("AIzaSyD2xBenoZ5ODonTmM7fKvwV5uVr2mmdH90",
+        youTubePlayerView.initialize("key value",
                 new YouTubePlayer.OnInitializedListener() {
                     @Override
                     public void onInitializationSuccess(YouTubePlayer.Provider provider,
@@ -544,7 +544,7 @@ public class DetailActivity extends YouTubeBaseActivity {
 
             OkHttpClient client = new OkHttpClient();
             Request request = new Request.Builder()
-                    .url("https://api.themoviedb.org/3/movie/" +m_id+ "/videos?api_key=dd3529cb48a78d9d2e775be63596398a")
+                    .url("https://api.themoviedb.org/3/movie/" +m_id+ "/videos?api_key=your key value")
                     .build();
             try {
                 Response response = client.newCall(request).execute();
